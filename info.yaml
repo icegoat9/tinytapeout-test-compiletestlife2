@@ -46,7 +46,7 @@ documentation:
 # The following fields are optional
   tag:          "animation, puzzle, game"      # comma separated list of tags: test encryption, experiment, clock, animation, utility, industrial, pwm, fpga, alu, microprocessor, risc, riscv, sensor, signal generator, fft, filter, music, bcd, sound, serial, timer, random number generator, calculator, decoder, counter, puzzle, multiplier, game, oscillator,
   external_hw:  "None. Could add debounced momentary pushbuttons in parallel with dip switches 1,2,3 to make loading in new patterns and stepping through a run easier."      # Describe any external hardware needed
-  discord:      "icegoat9"      # Your discord handle, used for communication and automatically assigning tapeout role after a submission
+  discord:      "icegoat9#3798"      # Your discord handle, used for communication and automatically assigning tapeout role after a submission
   doc_link:     "https://github.com/icegoat9/tinytapeout03-7seglife/blob/main/README.md"      # URL to longer form documentation, eg the README.md in your repository
   clock_hz:     0       # Clock frequency in Hz (if required)
   picture:      ""      # relative path to a picture in your repository
