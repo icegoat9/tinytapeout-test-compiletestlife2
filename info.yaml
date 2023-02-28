@@ -18,10 +18,10 @@ yaml_version: 3.0
 #
 # Here is a great example: https://github.com/davidsiaw/tt02-davidsiaw-stackcalc/blob/38c5647f83aad2aec675d566aa3d67b98f0aac81/info.yaml
 documentation: 
-  author:       "icegoat9"      # Your name
+  author:       "icegoat9"                  # Your name
   title:        "7 Segment Life (WIP)"      # Project title
-  language:     "Wokwi"      # other examples include Verilog, Amaranth, VHDL, etc
-  description:  "A simple 7-segment cellular automaton"      # Short description of what your project does
+  language:     "Wokwi"                     # other examples include Verilog, Amaranth, VHDL, etc
+  description:  "Simple 7-segment cellular automaton"      # Short description of what your project does
 
 # Longer description of how the project works. You can use standard markdown format.
   how_it_works: |
@@ -33,7 +33,7 @@ documentation:
 
 # A description of what the inputs do
   inputs:               
-    - DIP1/clock: On riding edge, if in Run mode: advance automaton one step. See doc_link for more info.
+    - DIP1 clock: On riding edge, if in Run mode: advance automaton one step. See doc_link for more info.
     - reset: ?
     - DIP 2: When toggled high and in Load mode: push 0 into initial state (see doc_link)
     - DIP 3: When toggled high and in Load mode: push 1 into initial state
