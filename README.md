@@ -2,7 +2,7 @@
 
 An ASIC design for [Tiny Tapeout](https://tinytapeout.com) 03. **Work in progress: see running TODO**
 
-This implements a very simple 7-segment [cellular automaton](https://en.wikipedia.org/wiki/Cellular_automaton) from ~200 **(TBD)** logic gates, using the [Wokwi web-based logic editor](https://tinytapeout.com/digital_design/wokwi/). When the Tiny Tapeout ASIC is fabricated and mounted on its standard carrier PCB (with 8 dip switch inputs and a 7 segment display as output), it should run the below behavior in hardware.
+This implements a very simple 7-segment [cellular automaton](https://en.wikipedia.org/wiki/Cellular_automaton) from ~200 logic gates, using the [Wokwi web-based logic editor](https://tinytapeout.com/digital_design/wokwi/). When the Tiny Tapeout ASIC is fabricated and mounted on its standard carrier PCB (with 8 dip switch inputs and a 7 segment display as output), it should run the below behavior in hardware.
 
 ## Behavior
 
@@ -88,7 +88,7 @@ state:         switch #3            switch #3 again      switch #2
  ---               ---                  ---                  ---                 
 ```
 
-## Puzzles
+## Exercises For The Reader
 
 * How many unique initial states are there, disregarding equivalent mirrored/rotated states? (there are 2^7 = 128 possible initial states but many are equivalent)
 
@@ -129,7 +129,7 @@ Other links I found along the way (mostly relevant to future HDL work):
     * Should be able to divide by wide range of speeds
   * Ask in discord for tt03 clock divider docs (maybe can remove most of what I have)
   * Edit diagram.json to simulate slower input clock in Wokwi
-* Ask in discord about Buffers seen in some peoples' designs (but not in dropdown?) -- any need?
+* Ask in discord about Buffers seen in some peoples' designs (but not in dropdown?) -- use case?
 
 **Documentation-related:**
 * Ask in discord about error where Wokwi locks up when editing JSON for text labels...
