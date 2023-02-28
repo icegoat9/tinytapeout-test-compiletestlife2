@@ -2,7 +2,7 @@
 
 An ASIC design for [Tiny Tapeout](https://tinytapeout.com) 03. **Work in progress: see running TODO**
 
-This implements a simple 7-segment [cellular automaton](https://en.wikipedia.org/wiki/Cellular_automaton) as a fun little project designed in the [Wokwi web-based logic editor](https://tinytapeout.com/digital_design/wokwi/) from ~200 **(TBD)** logic gates. When the Tiny Tapeout ASIC is mounted on its standard carrier PCB (with 8 dip switch inputs and a 7 segment display as output), it should run the below behavior in hardware.
+This implements a very simple 7-segment [cellular automaton](https://en.wikipedia.org/wiki/Cellular_automaton) from ~200 **(TBD)** logic gates, using the [Wokwi web-based logic editor](https://tinytapeout.com/digital_design/wokwi/). When the Tiny Tapeout ASIC is fabricated and mounted on its standard carrier PCB (with 8 dip switch inputs and a 7 segment display as output), it should run the below behavior in hardware.
 
 ## Behavior
 
