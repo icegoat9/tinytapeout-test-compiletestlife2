@@ -129,9 +129,16 @@ Other links I found along the way (mostly relevant to future HDL work):
   * Ask in discord for tt03 clock divider docs (maybe can remove most of what I have)
   * Edit diagram.json to simulate slower input clock in Wokwi
 * Ask in discord about Buffers seen in some peoples' designs (but not in dropdown?) -- any need?
+
+**Documentation-related:**
 * Ask in discord about error where Wokwi locks up when editing JSON for text labels...
   * Add more Wokwi text labels
 * Update docs re: clock divider (once working)
 * Update info.yaml documentation (clock, how to test, how it works, etc)
+* Add Wokwi link
+* Graphics in README once design is done:
+  * Screenshot of logic gate layout
+  * Snapshot of GDS
+  * Replace text 7 segment sketches with images? Or, good enough?
 
 
