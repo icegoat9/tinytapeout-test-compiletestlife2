@@ -30,7 +30,7 @@ documentation:
     * Seven flip-flops hold the cellular automaton's internal state, which is also displayed in the seven-segment display.
     * Combinatorial logic generates the next state for each segment based on its neighbors, according to the ruleset...
       * Living segments with exactly one living neighbor (another segment that touches it end to end) survive, and all others die.
-      * Dad segments with exactly two living neighbors come to life.
+      * Dead segments with exactly two living neighbors come to life.
     * When either the system clock or a user toggling the clock input go high, this new state is latched into the automaton's state.
     * There's minor additional support logic to let the user manually shift in an initial condition and handle clock dividing.
 
