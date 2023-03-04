@@ -36,7 +36,7 @@ documentation:
 
 # Instructions on how someone could test your project, include things like what buttons do what and how to set the clock if needed
   how_to_test:  |
-    For full details and a few 'exercises for the reader', see the [github README](https://github.com/icegoat9/tinytapeout03-7seglife) doc link. But at a high level...
+    For full details and a few 'exercises for the reader', see the [github README](https://github.com/icegoat9/tinytapeout03-7seglife) doc link. But at a high level, assuming the IC is mounted on the standard tinytapeout PCB which provides dip switches, clock, and a seven-segment display for output...
     
     * Set all dip switches off and the clock slide switch to the 'manual' clock side.
     * Power on the system. An arbitrary state may appear on the 7-segment display.
@@ -45,8 +45,8 @@ documentation:
 
     If you want to watch it run automatically (which may quickly settle on an empty state or a static pattern, depending on start state)...
     
-    * Set the PCB clock divider to the maximum clock division (255).
-    * Set dip switches 5 and 7 on to add a reasonable clock divider (see docs for more details on a higher or lower divider).
+    * Set the PCB clock divider to the maximum clock division (255). With a system clock of 6.25kHz, the clock input should now be ~24.5Hz.
+    * Set dip switches 5 and 7 on to add a reasonable additional clock divider (see docs for more details on a higher or lower divider).
     * Set dip switch 4 on.
     * Switch the clock slide switch to the 'system clock' side. The display should advance at roughly 1.5Hz if I've done math correctly.
 
