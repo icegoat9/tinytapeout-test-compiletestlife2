@@ -25,30 +25,30 @@ documentation:
 
 # Longer description of how the project works. You can use standard markdown format.
   how_it_works: |
-"  See the [Woki gate layout and simulation](https://wokwi.com/projects/357752736742764545). At a high level:
+   See the [Woki gate layout and simulation](https://wokwi.com/projects/357752736742764545). At a high level...
       * Seven flip-flops hold the cellular automaton's internal state, which is also displayed in the seven-segment display.
-      * Combinatorial logic generates the next state for each segment based on its neighbors, according to the ruleset:
+      * Combinatorial logic generates the next state for each segment based on its neighbors, according to the ruleset...
         * Living segments with exactly one living neighbor (another segment that touches it end to end) survive, and all others dies
         * Empty / dead segments with exactly two living neighbors come to life / are born
       * When either the system clock or a user toggling the clock input go high, this new state is latched into the automaton's state and the seven segment display updates
-      * There's minor additional support logic to let the user manually shift in an initial condition, or handle clock dividing"
+      * There's minor additional support logic to let the user manually shift in an initial condition, or handle clock dividing
 
 # Instructions on how someone could test your project, include things like what buttons do what and how to set the clock if needed
   how_to_test:  |
-"For full details and a few "exercises for the reader", see the github README / doc link. But at a high level:
-* Set all dip switches off and the clock slide switch to the "manual" clock side.
+"For full details and a few 'exercises for the reade'", see the github README / doc link. But at a high level:
+* Set all dip switches off and the clock slide switch to the 'manual' clock side.
 * Power on the system. An arbitrary initial state will likely appear on the 7-segment display.
-* Set dip switch 4 on ("run mode")
+* Set dip switch 4 on ('run mode')
 * Toggle dip switch 1 on and off to advance the automaton to the next state, you should see the 7-segment display update
 
 If you want to watch it run automatically (which may quickly settle on an empty state or a static pattern, depending on start state):
 * Set the PCB clock divider to the maximum clock division (255)
 * Set dip switches 5 and 7 on to add a reasonable clock divider (see docs for more details on a higher or lower divider)
 * Set dip switch 4 on
-* Switch the clock slide switch to the "system clock" side. The display should advance at roughly 1.5Hz if I've done math correctly.
+* Switch the clock slide switch to the 'system clock' side. The display should advance at roughly 1.5Hz if I've done math correctly.
 
 If you want to load an initial state:
-* Set dip switch 4 off ("load mode")
+* Set dip switch 4 off ('load mode')
 * Toggle dip switches 2 and/or 3 on and off seven times total, to shift in 0 and 1 values to the automaton internal state
 * Set dip switch 4 on and run manually or automatically as above"
 
