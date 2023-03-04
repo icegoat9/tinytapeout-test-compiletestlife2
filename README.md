@@ -119,9 +119,7 @@ No blocking items, ready to submit...
 
 **Documentation-related, can do later:**
 * Ask in discord about slowdown where Wokwi locks up when editing JSON for text labels...
-* Update info.yaml documentation (clock, how to test, how it works, etc)
-  * Add Wokwi link to info.yaml
-* Maybe add some graphics to README:
+* Maybe add some graphics to this README at some point:
   * Screenshot of logic gate layout
   * Snapshot of GDS 3D render
   * Replace text 7 segment ascii art with images? Or, is this good enough?
