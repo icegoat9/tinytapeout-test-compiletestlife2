@@ -19,17 +19,22 @@ yaml_version: 3.0
 # Here is a great example: https://github.com/davidsiaw/tt02-davidsiaw-stackcalc/blob/38c5647f83aad2aec675d566aa3d67b98f0aac81/info.yaml
 documentation: 
   author:       "icegoat9"                  # Your name
-  title:        "7 Segment Life (WIP)"      # Project title
+  title:        "7 Segment Life"      # Project title
   language:     "Wokwi"                     # other examples include Verilog, Amaranth, VHDL, etc
   description:  "Simple 7-segment cellular automaton"      # Short description of what your project does
 
 # Longer description of how the project works. You can use standard markdown format.
   how_it_works: |
+      * Seven flip-flops hold the cellular automaton's internal state, which is also displayed in the seven-segment display.
+      * Combinatorial logic generates the next state for each segment based on its neighbors, according to the ruleset:
       TBD (for now, see github README)
 
 # Instructions on how someone could test your project, include things like what buttons do what and how to set the clock if needed
   how_to_test:  |
-      TBD (for now, see github README)
+TBD (for now, see github README)
+Test new line
+* Test markdown
+Test new line
 
 # A description of what the inputs do
   inputs:           
@@ -37,21 +42,21 @@ documentation:
     - load0
     - load1
     - runmode
-    - clockdivider
-    - clockdivider
-    - clockdivider
-    - clockdivider
+    - clockdiv8
+    - clockdiv4
+    - clockdiv2
+    - unused
 
 # A description of what the outputs do
   outputs:
-    - output0
-    - output1
-    - output2
-    - output3
-    - output4
-    - output5
-    - output6
-    - output7
+    - 7segmentA
+    - 7segmentB
+    - 7segmentC
+    - 7segmentD
+    - 7segmentE
+    - 7segmentF
+    - 7segmentG
+    - 7segmentDP
 
 # The following fields are optional
   tag:          "animation, puzzle, game"      # comma separated list of tags: test encryption, experiment, clock, animation, utility, industrial, pwm, fpga, alu, microprocessor, risc, riscv, sensor, signal generator, fft, filter, music, bcd, sound, serial, timer, random number generator, calculator, decoder, counter, puzzle, multiplier, game, oscillator,
