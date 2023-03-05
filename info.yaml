@@ -19,7 +19,7 @@ yaml_version: 3.0
 # Here is a great example: https://github.com/davidsiaw/tt02-davidsiaw-stackcalc/blob/38c5647f83aad2aec675d566aa3d67b98f0aac81/info.yaml
 documentation: 
   author:       "icegoat9"                  # Your name
-  title:        "life compile efficiency test 2"      # Project title
+  title:        "compile efficiency test 2"      # Project title
   language:     "Wokwi"                     # other examples include Verilog, Amaranth, VHDL, etc
   description:  "test"      # Short description of what your project does
 
